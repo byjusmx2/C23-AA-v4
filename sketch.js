@@ -1,16 +1,16 @@
 
 
 
-//Create namespace for Engine
-//Create namespace for World
-//Create namespace for Bodies
-//Create namespace for Body
+//Crear espacio de nombre para Engine
+//Crear espacio de nombre para World
+//Crear espacio de nombre para Bodies
+//Crear espacio de nombre para Body
 
 
 function setup() {
   createCanvas(400,400);
-//create the engine
-  //Add world to the engine
+//crear engine
+  //Agregar world a engine
   
 
   
@@ -24,8 +24,8 @@ function setup() {
    };
   
   
-//create a ground
-//add to world
+//crear un fondo
+//agregarlo a world
 
   ball = Bodies.circle(100,10,20,ball_options);
   World.add(world,ball);
@@ -46,7 +46,7 @@ function draw()
   
 
   ellipse(ball.position.x,ball.position.y,20);
-  //write a rectangle function to display ground.
+  //escribir una función rectangle para mostrar el suelo.
  
 
 
